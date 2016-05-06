@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>মাটিরাঙ্গা</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>উপজেলা প্রশাসন</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>পূর্বতন উপজেলা নির্বাহী অফিসারগণ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+					
+						<p style=text-align:left;>
+						<strong>কাজী ফরিদ আহামদ</strong><br> কার্যকাল: ১২/১২/১৯৮২ হতে<br> ০৯/০৫/১৯৮৪ পর্যন্ত<br><br>
+						<strong>এ কে এম এনামুল হক</strong><br> কার্যকাল: ১০/০৫/১৯৮৪ হতে<br>২১/০৯/১৯৮৫ পর্যন্ত<br><br>
+						<strong>আব্দুল হক </strong><br> কার্যকাল: ১০/১০/১৯৮৫ হতে<br>১০/০৯/১৯৮৮ পর্যন্ত<br><br>
+						<strong>মোঃ আবু তাহের </strong><br> কার্যকাল: ১৩/০৮/১৯৮৮ হতে<br>১৪/০৯/১৯৮৯       পর্যন্ত<br><br>
+						<strong>এটিএম মোস্তফা কামাল </strong><br> কার্যকাল: ১০/০৯/১৯৮৯ হতে<br>২৭/০১/১৯৯২ পর্যন্ত<br><br>
+						<strong>ডিএম গোলাম ফারুক(ভাঃ) </strong><br> কার্যকাল: ২৮/০১/১৯৯২ হতে<br>০৪/০৭/১৯৯২ পর্যন্ত<br><br>
+						<strong>মোঃ নূরুল হুদা </strong><br> কার্যকাল: ০৫/০৭/১৯৯২ হতে<br>০৭/০৭/১৯৯৩ পর্যন্ত<br><br>
+						<strong>মোঃ আখতার হোসেন </strong><br> কার্যকাল: ২০/০৭/১৯৯৩ হতে<br>০৪/০৬/১৯৯৫ পর্যন্ত<br><br>
+						<strong>মির আহমদ </strong><br> কার্যকাল: ৩০/০৫/১৯৯৫ হতে<br>০৮/০৬/১৯৯৮ পর্যন্ত<br><br>
+						<strong>এস এম মেসবাহউল ইসলাম</strong><br> কার্যকাল: ০৭/০৬/১৯৯৮ হতে<br>২১/০৮/২০০০ পর্যন্ত<br><br>
+						<strong>গোলাম হোসেন </strong><br> কার্যকাল: ২১/০৮/২০০০ হতে<br>১৬/০৮/২০০১ পর্যন্ত<br><br>
+						<strong>শুভাশীষ সাহা </strong><br> কার্যকাল: ১৬/০৮/২০০১ হতে<br>২৬/০১/২০০২ পর্যন্ত<br><br>
+						<strong>মোঃ আব্দুল মান্নান ইলিয়াছ </strong><br> কার্যকাল: ১৯/০১/২০০২ হতে<br>২৭/০৪/২০০৪ পর্যন্ত<br><br>
+						<strong>মাহবুবুর রহমান (ভাঃ) </strong><br> কার্যকাল: ০৭/০২/২০০৪ হতে<br>০৯/০৪/২০০৪ পর্যন্ত<br><br>
+						<strong>রবীন্দ্রশ্রী  বড়ুয়া (ভাঃ) </strong><br> কার্যকাল: ২৭/০৪/২০০৪ হতে<br>০৬/০৬/২০০৪ পর্যন্ত<br><br>
+						<strong>মোহাম্মদ ইয়াছিন</strong><br> কার্যকাল: ০৭/০৬/২০০৪ হতে<br>১০/১২/২০০৬ পর্যন্ত<br><br>
+						<strong>মোহাম্মদ নুরুল আলম চেীধুরী </strong><br> কার্যকাল: ০৭/১২/২০০৬ হতে<br>২৪/১০/২০০৭ পর্যন্ত<br><br>
+						<strong>মোঃ আফজালুর রহমান </strong><br> কার্যকাল: ১৮/১০/২০০৭ হতে<br>০৫/১১/২০০৮ পর্যন্ত<br><br>
+						<strong>ড. মুহাম্মদ মুস্তাফিজুর রহমান </strong><br> কার্যকাল: ০৪/১১/২০০৮ হতে<br>০৬/০২/২০১১ পর্যন্ত<br><br>
+						<strong>মোঃ রায়হান কাওছার (ভাঃ) </strong><br> কার্যকাল: ০৭/০২/২০১১ হতে<br>০৪/০৩/২০১১ পর্যন্ত<br><br>
+						<strong>ড. মুহাম্মদ মুস্তাফিজুর রহমান </strong><br> কার্যকাল: ০৫/০৩/২০১১ হতে<br>১৪/০৬/২০১২ পর্যন্ত<br><br>
+						<strong>শহীদ মোহাম্মদ ছাইদুল হক </strong><br> কার্যকাল: ০৬/০৬/২০১২ হতে<br>২৭/০৬/২০১৩ পর্যন্ত<br><br>
+						<strong>মোঃ আমিনুল ইসলাম </strong><br> কার্যকাল: ২২/০৭/২০১৩ হতে<br>২৯/০৭/২০১৩ পর্যন্ত<br><br>
+						<strong>ড. মোহাম্মদ মাহে আলম 	</strong><br> কার্যকাল:২ ৯/০৬/২০১৩ 	হতে<br>৩০/০৬/২০১৪ পর্যন্ত<br><br>
+						<strong>মোহাম্মদ মনিরুজ্জামান বকাউল </strong><br> কার্যকাল:	০১/০৭/২০১৪ 	হতে<br>২৮/০৭/২০১৫ পর্যন্ত<br><br>
+						<strong>ইমরুল কায়েস (ভারপ্রাপ্ত) 	</strong><br> কার্যকাল: ২৮/০৭/২০১৫ 	হতে<br>১৩/০৮/২০১৫</p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

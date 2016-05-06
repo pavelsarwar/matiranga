@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>মাটিরাঙ্গা</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>এনজিও</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>এনজিও তালিকা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:left;>
+
+
+<strong>ব্র্যাক</strong><br>
+মোঃ জসিম উদ্দিন, ম্যানেজার<br>মোবাইলঃ 
+০১৫৫৯৬৮০১৪৭<br><br>
+<strong>আইডিএফ</strong><br>
+হিরণ কিশোর ত্রিপুরা, ম্যানেজার<br>মোবাইলঃ 
+০১৮২৭২৫৭৪৩০<br><br>
+<strong>প্রশিক্ষা</strong><br>
+রনজিৎ শানা, সমন্বয়কারী<br>মোবাইলঃ 
+০১৮২০৭০৩৮১৪<br><br>
+<strong>কারিতাস</strong><br>
+সাইমন শ্যামল, সমন্বয়কারী<br>মোবাইলঃ 
+০১৫৫৯৭৯১৯১৬<br><br>
+<strong>আশা</strong><br>
+অমর কান্তি চাকমা, ম্যানেজার<br>মোবাইলঃ 
+০১৭৩০৩১৮৬৮৪<br><br>
+<strong>পাহাড়ীকা প্রগতি সংঘ</strong><br>
+জ্যোতি ত্রিপুরা, পিও<br>মোবাইলঃ 
+০১৫৫৭১০৭৭৩৮<br><br>
+<strong>দি লেপ্রসী মিশন-ইন্টারন্যাশনাল</strong><br>
+
+
+নিউটোন চাকমা, সমন্বয়কারী<br>মোবাইলঃ 
+০১৫৫৪০১৯৬৯৫<br><br>
+<strong>সিসিডি আর</strong><br>
+
+
+খালেদা আক্তার, সমন্বয়কারী<br>মোবাইলঃ 
+০১৫৫৩১১২০৪২<br><br>
+<strong>ইপসা</strong><br>
+মোঃ অহিদুল ইসলাম, সমন্বয়কারী<br>মোবাইলঃ 
+০১৫৫৩১২৫৫৫৫৫<br><br>
+<strong>আনন্দ</strong><br>
+
+
+মোঃ নুরনবী, ব্যাবস্থাপক<br>মোবাইলঃ 
+০১৫৫৭১৩৪১২৬<br><br>
+<strong>Fath in Acation</strong><br>
+লিটন চাকমা, সমন্বয়কারী<br>মোবাইলঃ 
+০১৫৫৭০০৬২০১<br><br>
+<strong>পদক্ষেপ </strong><br>
+সমলেন্দু চাকমা, ম্যানেজার<br>মোবাইলঃ 
+০১৭৩০০২৭২৮৮
+
+						
+						
+						
+						
+ </p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

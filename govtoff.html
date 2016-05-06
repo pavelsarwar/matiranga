@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>মাটিরাঙ্গা</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>সরকারি অফিস</p>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ভূমি বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					
+						<p style=text-align:justify;><strong> উপজেলা ভূমি অফিস, মাটিরাঙ্গা</strong><br>নামঃ বি. এম. মশিউর রহমান<br>পদবি: উপজেলা নিবাহী অফিসার ও  সহকারী কমিশনার (ভূমি)<br>মোবাইল: ০১৫৫০৬০৪৫২৩<br>ইমেইল: matirangauno@gmail.com</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>আইন-শৃঙ্খলা বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>
+						<strong>মাটিরাঙ্গা থানা</strong><br> নামঃ শাহাদাৎ হোসেন টিটু <br>পদবি: থানা ভারপ্রাপ্ত কর্মকর্তা<br>মোবাইল: ০১৭৫৫৫৫১১৫০<br>ইমেইল: matirangathana@yahoo.com<br><br><strong>উপজেলা আনসার ও ভি.ডি.পি</strong> <br>নামঃ মোঃ মোন্তাকিম চৌধুরী<br>পদবি: উপজেলা আনসার ও ভি.ডি.পি কর্মকর্তা<br>মোবাইল: ০১৭১১০১৪৫০১<br>ইমেইল: matirangabdp@gmail.com</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>স্বাস্থ্য বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;><strong>উপজেলা স্বাস্থ্য কমপ্লেক্স মাটিরাঙ্গা</strong><br> নামঃ ড:মো:খায়রুল আলম<br>পদবি: উপজেলা স্থাস্থ্যকর্মকর্তা<br>মোবাইল: ০১৫৫৩৬০০৯০২<br>ইমেইল:matirangauhseo@gmail.com <br><br>
+													<strong>উপজেলা পরিবার পরিকল্পনা অফিস</strong><br> নামঃ নিটোল মনি চাকমা<br>পদবি: উপজেলা পরিবার পরিকল্পনা কর্মকর্তা<br>মোবাইল: ০১৫৫৪৩৪৬৯১৮ <br>ইমেইল:notiolmoni@gmail.com </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>কৃষি ও খাদ্য বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;><strong>উপজেলা কৃষি অফিসারের কার্যালয়</strong><br> নামঃ মোঃ শাহ আলম মিয়া<br>পদবি: উপজেলা কৃষি অফিসার<br>মোবাইল: ০১৭১৪৭২০৭৭০<br>ইমেইল: shahalammih.rp@gmai.com<br><br>
+													<strong>উপজেলা প্রাণিসম্পদ কার্যালয়</strong><br> নামঃ ডাঃ মোঃ আসাদুজ্জামান<br>পদবি: উপজেলা প্রাণিসম্পদ কর্মকর্তা<br>মোবাইল: ০১৫৫৭১৬৩৮২৬২৪<br>ইমেইল:drasad6@gmail.com<br><br>
+													<strong>উপজেলা মৎস্য কর্মকর্তার কার্যালয়</strong><br> নামঃ সুদৃষ্টি চাকমা<br>পদবি: উপজেলা মৎস্য কর্মকর্তা<br>মোবাইল: ০১৫৫২৫০৭১০৭<br>ইমেইল:matirangafishoffice@gmail.com<br><br>
+													<strong>উপজেলা খাদ্য নিয়ন্ত্রকের কার্যালয়</strong><br> নামঃ অনন্ত বিজয় চাকমা<br>পদবি: উপজেলা খাদ্য নিয়ন্ত্রক কর্মকর্তা<br>মোবাইল: ০১৭২০১৫০৭৪৭<br>ইমেইল: onetubojioy@gmail.com
+													</p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>প্রকৌশল ও যোগাযোগ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> <strong> উপজেলা প্রকৌশলীর কার্যালয়</strong><br> নামঃ মোঃ আনোয়ারুল হক<br>পদবি: উপজেলা প্রকৌশলী<br>মোবাইল: ০১৫৫৬৭০৩৬৮৬<br>ইমেইল: ue.matiranga@lged.gov.bd<br><br>
+						<strong> উপজেলা তথ্য ও যোগাযোগ প্রযুক্তি (ICT) অধিদপ্তর</strong><br> নামঃ সলিল চাকমা<br>পদবি: সহকারী প্রোগ্রামার ও উপজেলা ই-সার্ভিস (আইসিটি) কর্মকর্তা <br>মোবাইল: ০১৮১৬৫৭৩৮১৮<br>ইমেইল:sall_babb@yahoo.com<br><br>
+													   <strong> উপজেলা প্রকল্প বাস্তবায়ন কর্মকর্তার কার্যালয়</strong><br> নামঃ রাজ কুমার শীল<br>পদবি: উপজেলা প্রকল্প বাস্তবায়ন কর্মকর্তা<br>মোবাইল: ০১৮১৯০৬৫৯৯৫<br>ইমেইল: m_ali00@yahoo.com<br><br>
+													   
+													   <strong>উপজলা বিদ্যুৎ উন্নয়ন বোর্ড</strong><br> নামঃ কাজী আমানউল্লাহ<br>পদবি: উপজেলা বিদ্যুৎ উন্নয়ন কর্মকর্তা<br>মোবাইল: ০১৭৫৫৫৮৩০৩৩<br>ইমেইল: kaziamon123@gmail.com<br><br>
+														<strong>উপজেলা জনস্বাস্থ্য প্রকৌশল অধিদপ্তর</strong><br> নামঃ আলাউদ্দিন আহম্মেদ<br>পদবি: উপ-সহকারী প্রকৌশলী জনস্বাস্থ্য কর্মকর্তা<br>মোবাইল: ০১৫৫৬৫৩০৫৪৫<br>ইমেইল: aluddin123@gmail.com<br><br>
+													   
+													   <strong> উপজেলা পার্বত্য চট্টগ্রাম উন্নয়ন বোর্ড</strong><br> নামঃ রেজাউল হক<br>পদবি: উপজেলা উন্নয়ন বোর্ড কর্মকর্তা<br>মোবাইল: ০১৮৫৫৯৬০০৩৫<br>ইমেইল: akmrh08@gmail.com<br><br>
+													   <strong> উপজেলা বিটিসিএল অফিস</strong><br> নামঃ মোঃ জসিম উদ্দিন<br>পদবি: বিটিসিএল কেন্দ্র প্রধান<br>মোবাইল: 	০১৮১৪১০২৮৪৬<br>ইমেইল: 	matirangabtcl@gmail.com </p>
+						
+				 	</div>
+				</div>
+				
+				
+
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মানব সম্পদ উন্নয়ন বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> <strong>উপজেলা মহিলা বিষয়ক কর্মকর্তার কার্যালয়</strong><br> নামঃ মনিকা বড়ুয়া<br>পদবি: উপজেলা মহিলা বিষয়ক কর্মকর্তা<br>মোবাইল: ০১৫৫০৬০৫৯৩৯<br>ইমেইল:monikaburua@yahoo.com<br><br>
+														
+														<strong>উপজেলা যুব উন্নয়ন অধিদপ্তর</strong><br> নামঃ শেখ আশ্রাফ উদ্দিন<br>পদবি: উপজেলা যুব উন্নয়ন কর্মকর্তা<br>মোবাইল: ০১৫৫২৭০৩৯৫০<br>ইমেইল:sheikhashrafuddin@yahoo.com<br><br>
+														<strong>উপজেলা সমবায় কার্যালয়</strong><br> নামঃ প্রভাকর চৌধুরী<br>পদবি: উপজেলা সমবায় অফিসার ও সহকারী প্রকল্প পরিচালক<br>মোবাইল: ০১৫৫৭০৯০৪৭১<br>ইমেইল:prabhakar@gmail.com<br><br>
+														
+														<strong>উপজেলা সমাজসেবা কার্যালয়</strong><br> নামঃ মুহাম্মদ আবুল কাশেম<br>পদবি: উপজেলা সমাজসেবা কর্মকর্তা<br>মোবাইল: ০১৫৫২৭০১৭১০<br>ইমেইল: abul9889@gmail.com<br><br>
+														<strong>উপজেলা পল্লী উন্নয়ন বোর্ড (বিআরডিবি)</strong><br>নামঃ মোঃ হুমায়ুন কবির<br>পদবি: উপজেলা পল্লী উন্নয়ন কর্মকর্তা<br>মোবাইল: ০১৫৫৭৪৩৮৩৮৪<br>ইমেইল:ajmasyan111@gmail.com<br><br>
+														<strong>ইউসিসি (বিআরডিবি)</strong><br> নামঃ মোঃ হাশেম ভূইয়া<br>পদবি: চেয়ারম্যান<br>মোবাইল: ০১৫৫৩৩২২২৬১<br><br>
+														<strong>একটি বাড়ি একটি খামার</strong><br>  নামঃ খুশি ত্রিপুরা<br>পদবি: সুপারভাইজার<br>মোবাইল: ০১৫৫৬৫৭১৯৪৩
+														</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>    শিক্ষা বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> <strong>উপজেলা মাধ্যমিক শিক্ষা অফিস</strong><br>নামঃ মোঃ মোহতাসিন বিল্লাহ<br>পদবি: উপজেলা মাধ্যমিক শিক্ষা অফিসার<br>মোবাইল: ০১৮১৮৭২২৮০৩<br>ইমেইল: billah1968@yahoo.com<br><br>
+														<strong>উপজেলা শিক্ষা অফিস, মাটিরাঙ্গা</strong><br> নামঃ কৃঞ্চ লাল দেবনাথ<br>পদবি: উপজেলা শিক্ষা অফিসার (ভারপ্রাপ্ত)<br>মোবাইল: ০১৫৫০৬০৫৯০০<br>ইমেইল: kldnath1969@gmail.com<br><br>
+														<strong>উপজেলা রিসোর্স সেন্টার, মাটিরাঙ্গা</strong><br> নামঃ 	মোঃ আসগর হোসেন<br>পদবি: সহকারী ইন্সট্রাক্টর<br>মোবাইল: ০১৫৫৩৬৭৫৫২৮<br>ইমেইল: urc.mati.khagra@gmail.com
+														
+</p>
+						
+				 	</div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>অন্যান্য</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>       <strong>  উপজেলা হিসাব রক্ষন অফিস</strong><br> নামঃ মোহাম্মদ জসিম উদ্দিন<br>পদবি: উপজেলা হিসাব রক্ষন অফিসার<br>মোবাইল: ০১৮২০৭০১৪১৫<br>ইমেইল: upazilaaccuncemati@gmail.com<br><br>
+						<strong> উপজেলা ডাকঘর</strong><br>নামঃ অজন্তা মুৎসুদ্দী <br>পদবি: পোষ্ট মাস্টার<br>মোবাইল:  ০১৫৫৩১০১৯৫২<br>ইমেইল: matirangapostoffice@gmail.com<br><br>
+       <strong> রেঞ্জ কর্মকর্তার কার্যালয়</strong><br> নামঃ মোঃ মোশারফ হোসেন  <br>পদবি: 	রেঞ্জ কর্মকর্তা<br>মোবাইল: ০১৭২৬৭৩১৯৮৯<br>ইমেইল: mosharrofhossainfr@gmail.com<br><br>
+       <strong> উপজেলা তুলা উন্নয়ন বোর্ড</strong><br> নামঃ মোঃ আলী হোসেন<br>পদবি: ইউনিট অফিসার<br>মোবাইল: ০১৭৬৩২৯৬১৬৬ <br><br>
+       <strong> উপজেলা নির্বাচন অফিস</strong><br> নামঃ জনাব অজয় চক্রবর্তী<br>পদবি: উপজেলা নির্বাচন কর্মকর্তা<br>মোবাইল: ০১৮১৮৮২৭৫৪৩<br>ইমেইল: ojoy_chakroboti@gmail.com<br><br>
+       <strong> উপজেলা পরিসংখ্যান অফিস</strong><br> নামঃ মোঃ আলী আহম্মেদ সরকার<br>পদবি: উপজেলা পরিসংখ্যান সহকারী কর্মকর্তা<br>মোবাইল: ০১৫৫৭০৭১২৭১<br>ইমেইল: aliahamed123@gmail.com<br><br>
+      <strong>  উপজেলা প্রশিক্ষক (তাঁত) বিসিক</strong><br> নামঃ মোঃ রফিকুল ইসলাম সরকার<br>পদবি: প্রশিক্ষক<br>মোবাইল: ০১৫৫৩৬৬৯৯৫৪<br>ইমেইল: rafiqulislam122@gmail.com
+</p>
+						
+				 	</div>
+				</div>
+				
+			
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

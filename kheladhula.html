@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>মাটিরাঙ্গা</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>খেলাধুলা ও বিনোদন</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>খেলাধুলা ও বিনোদন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>
+
+খাগড়াছড়ি জেলার মাটিরাঙ্গা উপজেলা একটি উপজাতি এবং অ-উপজাতি অধ্যুষিত এলাকা ।  তিনটি উপজাতির খেলাধুলা ও সংস্কৃতি ভিন্ন প্রকৃতির। <br><br>
+উপজাতীয়দের খেলার মধ্যে<br>
+
+১। ঘিলা খেলা<br>
+
+২। বাঁশ খরম দৌড়<br>
+
+৩। লাদেং খেলা<br>
+
+৪। পানি খেলা, ইত্যাদি উল্লেখযোগ্য ।<br><br>
+
+তাছাড়া এই উপজেলায় ফুটবল, ক্রিকেট, হকি, ব্যাডমিন্টন, হা-ডু-ডু, ক্যারাম, দাবা, টেবিল টেনিস, লং টেনিস, হ্যান্ডবল, লুডু, ভলিবল ইত্যাদির ব্যাপক জনপ্রিয়তা রয়েছে । <br><br>সকলে এই খেলা খেলে এবং জাতীয় এবং বিভাগীয় পর্যায়ে কৃতিত্ব অর্জন করেছে । এখানে খেলাধুলার জন্য মাটিরাঙ্গা ডিগ্রী কলেজ মাঠ ও মডেল উচ্চ বিদ্যালয়ের মাঠ রয়েছে । বালক-বালিকাদের জন্য বিভিন্ন ক্লাব, সংগঠন ও সুযোগ-সুবিধা রয়েছে ।
+
+</p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
